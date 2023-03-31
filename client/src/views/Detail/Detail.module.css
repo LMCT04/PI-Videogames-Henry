@@ -1,0 +1,61 @@
+.conte{
+    color: black;
+    display: flex;
+    max-width: 1200px;
+    margin-top: 200px;
+}
+
+.imag img{
+    display: flex;
+    max-width: 800px; /* reducir el ancho máximo */
+    max-height:700px;
+    margin-left: 200px; /* ajustar el margen izquierdo */
+}
+
+.title{
+    position: relative; /* usar posición relativa */
+    display: flex;
+    left: 70px;
+    font-size: xx-large;
+    color: white;
+    margin-top: 40px; /* establecer un margen superior */
+}
+
+.desc{
+    position: absolute;
+    font-size: small;
+    display: flex;
+    width: 1100px;
+    color: white;
+    margin-top: 700px;
+    margin-left: 120px;
+}
+
+.gpr{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 1100px;
+    color: white;
+    top:1200px;
+    margin-left: 120px;
+}
+
+.gen ul{
+    position: relative;
+    
+    width: 90px;
+    padding:  0px;
+    color: whitesmoke;
+    list-style: none;
+}
+
+.plat ul{
+    position: relative;
+    max-width: 250px;
+    height: 20px;
+    margin: 0 0 20px 0;
+    padding:  0px;
+    color: whitesmoke;
+    list-style: none;
+}

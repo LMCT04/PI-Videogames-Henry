@@ -1,8 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap');
 
-.homepage {
+/*.homepage {
     font-family: 'Roboto Mono', monospace;
     background-color: yellow;
     padding-top: 10px;
     height: 89.5vh;
+}*/
+
+.title{
+    position: absolute;
+    display: flex;
+    left: 70px;
+    font-size: xx-large;
+    color: white;
+    top: 40px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-around;
+    max-width: 1500px;
+    align-items: center;
+    margin-top: 140px;
+    font-family: 'Roboto Mono', monospace;
+    background-color: yellow;
+}
+
+.cards{
+    display: flex;
+    margin: 50px;
+    margin-top: 90px;
 }

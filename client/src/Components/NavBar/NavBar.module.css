@@ -8,7 +8,7 @@
     padding-top: 0px;
 }
 
-.homeContainer{
+.buttonHome{
     background-color: #FFF275;
     font-family: 'Roboto Mono', monospace;
     margin-top: 30px;
@@ -19,11 +19,7 @@
     border-style:hidden;
     font-weight: bold;
     cursor: pointer;
-}
-
-.home{
     color: #A23E48;
-    text-decoration:none ;
 }
 
 .formContainer{
